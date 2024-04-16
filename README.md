@@ -7,7 +7,7 @@ In order to run the function compute_test(), you need to first include the file 
 
 Then you need to specifiy the following parameters in your code (use desired number for each parameter):
 
-> iter <- 100  # number of iterations
+> iter <- 500  # number of iterations
 
 > s <- 100 # number of samples splits to estimate the covariance operator
 
@@ -19,7 +19,7 @@ Then you need to specifiy the following parameters in your code (use desired num
 
 > kernel_type <- 1 #1 is gaussian , 2 is laplace
 
-> num_perm <- 60  #number of permuations used to estimate the test threshod
+> num_perm <- 250  #number of permuations used to estimate the test threshod
 
 > Lambda <- 10^seq(-6,1,0.75) # Array for the values of lambda used for adapatation
 
